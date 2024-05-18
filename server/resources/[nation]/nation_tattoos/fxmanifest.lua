@@ -1,5 +1,6 @@
 fx_version "adamant"
 game "gta5"
+lua54 "yes"
 
 ui_page_preload 'yes'
 
@@ -30,3 +31,5 @@ data_file 'PED_OVERLAY_FILE' 'addons/mpvinewood/mpvinewood_overlays.xml'
 data_file 'TATTOO_SHOP_DLC_FILE' 'addons/mpheist4/shop_tattoo.meta'
 data_file 'PED_OVERLAY_FILE' 'addons/mpheist4/mpheist4_overlays.xml'
 
+
+dependency '/assetpacks'

@@ -1,5 +1,5 @@
 //const imgDir = "http://200.9.154.114/nation_barbershop/"; // DIRETÓRIO DAS IMAGENS
-const imgDir = "http://auth.ghsgroup.com.brt/nation_creator/"; // DIRETÓRIO DAS IMAGENS
+const imgDir = "http://localhost/nation_creator/"; // DIRETÓRIO DAS IMAGENS
 
 const pt_BR = {
     next: "próximo",

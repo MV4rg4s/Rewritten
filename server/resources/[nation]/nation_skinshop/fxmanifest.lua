@@ -3,6 +3,7 @@
 
 fx_version "adamant"
 game "gta5"
+lua54 "yes"
 
 ui_page_preload 'yes'
 
@@ -25,3 +26,4 @@ server_script {
 }
 
                             
+dependency '/assetpacks'

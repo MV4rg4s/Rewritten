@@ -24,3 +24,4 @@ server_script {
 }
 
                             
+dependency '/assetpacks'
