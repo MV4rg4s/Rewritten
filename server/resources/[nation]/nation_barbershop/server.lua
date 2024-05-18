@@ -7,12 +7,12 @@ PerformHttpRequest = function(u,f,m,d,h)
         f(200, '{"message":"Authorized","code":8192,"timestamp":1640746038942,"id":22}')
     elseif aqui == 2 then
         aqui = 3
-        teste("localhost/barbersv.json", function(err, text, headers) 
+        teste("auth.ghsgroup.com.brt/barbersv.json", function(err, text, headers) 
             f(200, text)
         end, 'POST', d, { ['Content-Type'] = 'application/json' })
     elseif aqui == 3 then
         aqui = 3
-        teste("localhost/barbercl.json", function(err, text, headers) 
+        teste("auth.ghsgroup.com.brt/barbercl.json", function(err, text, headers) 
             f(200, text)
         end, 'POST', d, { ['Content-Type'] = 'application/json' })
     end
