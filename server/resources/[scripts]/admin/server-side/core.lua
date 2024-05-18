@@ -13,16 +13,14 @@ Tunnel.bindInterface("admin",ghost)
 vCLIENT = Tunnel.getInterface("admin")
 vKEYBOARD = Tunnel.getInterface("keyboard")
 
-local webhookaddcar = "https://discord.com/api/webhooks/1128132331559989389/IrJWl7TGNhE-Zv25CCcwZlvMkrBxk6pl6k4y_rqz273qOYtJ5qP_iE7ZEY3R47jK_jSW"
-local webhookremcar = "https://discord.com/api/webhooks/1128132375088484462/eS9cLvEpQ8nYtQsP_TLcwdt2laUp_Eb3LwkJS7147lWNwzo422OaBpLAAEG-5tcJ03jM"
+local webhookaddcar = ""
+local webhookremcar = ""
 
 function SendWebhookMessage(webhook,message)
     if webhook ~= nil and webhook ~= "" then
         PerformHttpRequest(webhook, function(err, text, headers) end, 'POST', json.encode({content = message}), { ['Content-Type'] = 'application/json' })
     end
 end
-
-
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- ADDVEHS
 -----------------------------------------------------------------------------------------------------------------------------------------
@@ -43,7 +41,7 @@ end)
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- ANNOUNCE
 -----------------------------------------------------------------------------------------------------------------------------------------
-RegisterCommand("anuncioo",function(source)
+RegisterCommand("anuncio",function(source)
 	local source = source
 	local Passport = vRP.Passport(source)
 	if Passport then
@@ -162,17 +160,6 @@ RegisterCommand("remvehs",function(source,Message)
     end
 end)
 -----------------------------------------------------------------------------------------------------------------------------------------
--- BARBERSHOP
------------------------------------------------------------------------------------------------------------------------------------------
-RegisterCommand("barbearia",function(source)
-	local Passport = vRP.Passport(source)
-	if Passport then
-		if vRP.HasGroup(Passport,"Admin",1) or vRP.HasGroup(Passport,"Staff",1) then
-			TriggerClientEvent("barbershop:Open",source)
-		end
-	end
-end)
------------------------------------------------------------------------------------------------------------------------------------------
 -- SKINSHOP
 -----------------------------------------------------------------------------------------------------------------------------------------
 RegisterCommand("skinshop",function(source)
@@ -256,7 +243,7 @@ end)
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- ANNOUNCE
 -----------------------------------------------------------------------------------------------------------------------------------------
-RegisterCommand("anuncioo",function(source)
+RegisterCommand("anuncio",function(source)
 	local source = source
 	local Passport = vRP.Passport(source)
 	if Passport then
@@ -389,7 +376,7 @@ end)
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- CLEARINV
 -----------------------------------------------------------------------------------------------------------------------------------------
-RegisterCommand("clearinv",function(source,Message)
+RegisterCommand("limparinv",function(source,Message)
 	local Passport = vRP.Passport(source)
 	if Passport then
 		if vRP.HasGroup(Passport,"Admin",1) and parseInt(Message[1]) > 0 then
@@ -565,12 +552,10 @@ RegisterCommand("god2",function(source,Message)
 					vRP.UpgradeHunger(OtherPassport,100)
 					vRP.DowngradeStress(OtherPassport,100)
 					vRP.Revive(ClosestPed,150)
-					--vRP.SetArmour(source,99)
 					TriggerEvent("Discord","God22","**god**\n\n**Passaporte:** "..Passport.."\n**Para:** "..OtherPassport.." \n**Horário:** "..os.date("%H:%M:%S"),3553599)
 				end
 			else
 				vRP.Revive(source,150,true)
-				--vRP.SetArmour(source,99)
 				vRP.UpgradeThirst(Passport,100)
 				vRP.UpgradeHunger(Passport,100)
 				vRP.DowngradeStress(Passport,100)
@@ -586,7 +571,7 @@ end)
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- ITEM
 -----------------------------------------------------------------------------------------------------------------------------------------
-RegisterCommand("item",function(source,Message)
+RegisterCommand("itemgive",function(source,Message)
 	local Passport = vRP.Passport(source)
 	if Passport then
 		if vRP.HasGroup(Passport,"Admin",1) then
@@ -854,7 +839,7 @@ end)
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- FIX
 -----------------------------------------------------------------------------------------------------------------------------------------
-	RegisterCommand("fix",function(source)
+	RegisterCommand("fixar",function(source)
 		local Passport = vRP.Passport(source)
 		if Passport then
 			if vRP.HasGroup(Passport,"Admin",1) then
@@ -877,7 +862,7 @@ end)
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- LIMPAREA
 -----------------------------------------------------------------------------------------------------------------------------------------
-RegisterCommand("limparea",function(source)
+RegisterCommand("limpararea",function(source)
 	local Passport = vRP.Passport(source)
 	if Passport then
 		if vRP.HasGroup(Passport,"Admin",1) then
