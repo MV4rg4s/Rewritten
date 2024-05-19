@@ -77,8 +77,8 @@ input::-webkit-inner-spin-button {
 }
 
 .NameServer {
-	top: 0px;
-	left: 43.2%;
+	top: 1px;
+	left: 46%;
 	position: absolute;
 	animation: rewritten 10s ease-out infinite;
 }

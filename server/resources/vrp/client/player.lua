@@ -67,11 +67,12 @@ AddEventHandler("vRP:Active",function(Passport,Name)
 
 	SetDiscordAppId(1240930138309398595)
 	SetDiscordRichPresenceAsset("logo")
-	SetRichPresence("💳・"..Passport.." "..Name)
+	SetRichPresence("💳 #"..Passport.."・"..Name)
 	SetDiscordRichPresenceAssetSmall("static")
-	SetDiscordRichPresenceAssetText("Night Roleplay")
-	SetDiscordRichPresenceAssetSmallText("Night Roleplay")
-	SetDiscordRichPresenceAction(0,"Discord","https://discord.gg/rdvKAKSjfp")
+	SetDiscordRichPresenceAssetText("NIGHT")
+	SetDiscordRichPresenceAssetSmallText("NIGHT")
+	SetDiscordRichPresenceAction(0,"Discord","https://linktr.ee/nightgg")
+	SetDiscordRichPresenceAction(0,"Jogar","https://linktr.ee/nightgg")
 
 	TriggerEvent("hud:Passport",Passport)
 
