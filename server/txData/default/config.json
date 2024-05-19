@@ -1,7 +1,7 @@
 {
   "global": {
     "serverName": "Night Roleplay",
-    "language": "en",
+    "language": "pt",
     "menuEnabled": true,
     "menuAlignRight": false,
     "menuPageKey": "Tab",
@@ -34,7 +34,9 @@
   "fxRunner": {
     "serverDataPath": "C:/Users/night_rp/Desktop/server-night/server/",
     "cfgPath": "C:/Users/night_rp/Desktop/server-night/server/server.cfg",
-    "onesync": "legacy",
-    "autostart": true
+    "commandLine": "+set sv_enforceGameBuild 2802",
+    "onesync": "on",
+    "autostart": true,
+    "quiet": false
   }
 }

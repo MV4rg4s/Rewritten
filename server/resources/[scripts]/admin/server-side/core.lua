@@ -488,6 +488,8 @@ RegisterCommand("god",function(source,Message)
 					vRP.DowngradeStress(OtherPassport,100)
 					vRP.Revive(ClosestPed,200)
 					--TriggerEvent("Discord","God","**god**\n\n**Passaporte:** "..Passport.."\n**Para:** "..OtherPassport.." \n**Horário:** "..os.date("%H:%M:%S"),3553599)
+					TriggerClientEvent("Notify",source,"verde","Você deu god para o passaporte "..OtherPassport..".",5000)
+
 				end
 			else
 				vRP.Revive(source,200,true)
@@ -496,6 +498,7 @@ RegisterCommand("god",function(source,Message)
 				vRP.UpgradeHunger(Passport,100)
 				vRP.DowngradeStress(Passport,100)
 				--TriggerEvent("Discord","God","**god**\n\n**Passaporte:** "..Passport.."\n**Deu God em Si mesmo:** \n**Horário:** "..os.date("%H:%M:%S"),3553599)
+				TriggerClientEvent("Notify",source,"verde","Você deu god em si mesmo.",5000)
 
 				TriggerClientEvent("paramedic:Reset",source)
 
@@ -580,6 +583,7 @@ RegisterCommand("itemgive",function(source,Message)
 				vRP.GenerateItem(Passport,Message[1],Amount,true)
 				TriggerClientEvent("inventory:Update",source,"Backpack")
 				TriggerEvent("Discord","Item","**item**\n\n**Passaporte:** "..Passport.."\n**Item:** "..Amount.."x "..itemName(Message[1]).." \n**Horário:** "..os.date("%H:%M:%S"),3553599)
+				TriggerClientEvent("Notify",source,"verde","Você gerou com sucesso "..Amount.."x "..itemName(Message[1])..".",5000)
 			end
 		end
 	end
@@ -711,6 +715,7 @@ RegisterCommand("tpcds",function(source)
 			if Keyboard then
 				local Split = splitString(Keyboard[1],",")
 				vRP.Teleport(source,Split[1] or 0,Split[2] or 0,Split[3] or 0)
+				TriggerClientEvent("Notify",source,"verde","Você se teleportou com sucesso para a cordenada X:"..Split[1].." Y:"..Split[2].." Z:"..Split[3]..".",5000)
 			end
 		end
 	end
@@ -772,6 +777,7 @@ RegisterCommand("tptome",function(source,Message)
 				
 				vRP.Teleport(ClosestPed,Coords["x"],Coords["y"],Coords["z"])
 				TriggerEvent("Discord","Tptome","**tptome**\n\n**Passaporte:** "..Passport.."\n**Para:** "..Message[1].." \n**Horário:** "..os.date("%H:%M:%S"),3553599)
+				TriggerClientEvent("Notify",source,"verde","Você puxou o passaporte "..Message[1].." para você.",5000)
 			end
 		end
 	end
@@ -789,6 +795,8 @@ RegisterCommand("tpto",function(source,Message)
 				local Coords = GetEntityCoords(Ped)
 				vRP.Teleport(source,Coords["x"],Coords["y"],Coords["z"])
 				TriggerEvent("Discord","Tpto","**tpto**\n\n**Passaporte:** "..Passport.."\n**Para:** "..Message[1].." \n**Horário:** "..os.date("%H:%M:%S"),3553599)
+				TriggerClientEvent("Notify",source,"verde","Você se teleportou para o passaporte "..Message[1].."",5000)
+				
 			end
 		end
 	end
@@ -801,6 +809,7 @@ RegisterCommand("tpway",function(source)
 	if Passport then
 		if vRP.HasGroup(Passport,"Admin",1) then
 			vCLIENT.teleportWay(source)
+			TriggerClientEvent("Notify",source,"verde","Você se teleportou para o local marcado no mapa.",5000)
 		end
 	end
 end)
@@ -835,6 +844,7 @@ RegisterCommand("tuning",function(source)
 	if Passport then
 		if vRP.HasGroup(Passport,"Admin",1) then
 			TriggerClientEvent("admin:vehicleTuning",source)
+			TriggerClientEvent("Notify",source,"verde","Melhorias de performance aplicadas com sucesso.",5000)
 		end
 	end
 end)
@@ -851,11 +861,13 @@ end)
 					for _,v in pairs(Players) do
 						async(function()
 							TriggerClientEvent("inventory:repairAdmin",v,Network,Plate)
+							TriggerClientEvent("Notify",source,"verde","Veículo consertado com sucesso.",5000)
 						end)
 					end
 					
 					if VehicleExist(vehName) then
 						TriggerEvent("Discord","Fix","**fix**\n\n**Passaporte:** "..Passport.."\n**Veículo:** "..VehicleName(vehName).."\n**Placa:** "..Plate,3553599)
+						--TriggerClientEvent("Notify",source,"verde","Veículo consertado com sucesso.",5000)
 					end
 				end
 			end
@@ -871,6 +883,7 @@ RegisterCommand("limpararea",function(source)
 			local Ped = GetPlayerPed(source)
 			local Coords = GetEntityCoords(Ped)
 			TriggerClientEvent("syncarea",source,Coords["x"],Coords["y"],Coords["z"],100)
+			TriggerClientEvent("Notify",source,"verde","Você limpou com sucesso a área ao redor.",5000)
 		end
 	end
 end)

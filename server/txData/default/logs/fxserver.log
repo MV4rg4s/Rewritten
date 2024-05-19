@@ -1,9 +1,15 @@
 
 ================================================================
-======== FXServer Starting - 5/18/2024, 7:55:11 PM              
+======== Log Rotated - 5/19/2024, 12:00:00 AM                   
+================================================================
+[          script:vrp] Realizado o save do banco de dados.
+[ citizen-server-main] -> Quitting: SIGHUP received
+
+================================================================
+======== FXServer Starting - 5/19/2024, 12:25:43 AM             
 ================================================================
 [           resources] Scanning resources.
-[           resources] Found 86 resources.
+[38;5;83m[           resources] Found 86 resources.
 [          svadhesive] Authenticating server license key...
 [          svadhesive] Server license key authentication succeeded. Welcome!
 [    c-scripting-core] Creating script environments for sessionmanager
@@ -12,15 +18,15 @@
 [      script:monitor] [txAdmin] Resource v7.1.0 threads and commands set up. All Ready.
 [           resources] Started resource monitor
 [    c-scripting-core] Creating script environments for vrp
-[           resources] Started resource vrp
+[38;5;83m[           resources] Started resource vrp
 [    c-scripting-core] Creating script environments for oxmysql
-[38;5;83m[           resources] Started resource oxmysql
+[           resources] Started resource oxmysql
 [    c-scripting-core] Creating script environments for nation_barbershop
 [           resources] Started resource nation_barbershop
-[    c-scripting-core] [0mCreating script environments for nation_creator
+[    c-scripting-core] Creating script environments for nation_creator
 [           resources] Started resource nation_creator
 [    c-scripting-core] Creating script environments for nation_skinshop
-[           resources] Started resource nation_skinshop
+[           resources] [97mStarted resource nation_skinshop
 [    c-scripting-core] Creating script environments for nation_tattoos
 [           resources] Started resource nation_tattoos
 [    c-scripting-core] Creating script environments for PolyZone
@@ -32,12 +38,12 @@
 [           resources] Started resource sounds
 [    c-scripting-core] Creating script environments for admin
 [           resources] Started resource admin
-[38;5;161m[    c-scripting-core] Creating script environments for airdrop
+[    c-scripting-core] Creating script environments for airdrop
 [           resources] Started resource airdrop
 [           resources] Started resource animacoes
 [    c-scripting-core] Creating script environments for bank
 [           resources] Started resource bank
-[    c-scripting-core] Creating script environments for barbershop
+[    c-scripting-core] [0mCreating script environments for barbershop
 [           resources] Started resource barbershop
 [    c-scripting-core] Creating script environments for blipsystem
 [           resources] Started resource blipsystem
@@ -45,8 +51,8 @@
 [           resources] Started resource bus
 [           resources] Started resource cemitery
 [    c-scripting-core] Creating script environments for chat
-[           resources] Started resource chat
-[    c-scripting-core] [97mCreating script environments for chest
+[           resources] [0mStarted resource chat
+[    c-scripting-core] Creating script environments for chest
 [           resources] Started resource chest
 [    c-scripting-core] Creating script environments for crafting
 [           resources] Started resource crafting
@@ -57,346 +63,9 @@
 [           resources] Started resource dismantled
 [    c-scripting-core] Creating script environments for doors
 [           resources] Started resource doors
-[           resources] [97mStarted resource drift
 [    c-scripting-core] Creating script environments for dynamic
-[           resources] [0mStarted resource dynamic
+[           resources] Started resource dynamic
 [    c-scripting-core] Creating script environments for engine
-[38;5;83m[           resources] Started resource engine
-[    c-scripting-core] Creating script environments for evidence
-[           resources] Started resource evidence
-[    c-scripting-core] Creating script environments for farmer
-[           resources] Started resource farmer
-[    c-scripting-core] Creating script environments for garages
-[           resources] Started resource garages
-[    c-scripting-core] Creating script environments for helicrash
-[           resources] [0mStarted resource helicrash
-[           resources] Started resource hoverfy
-[    c-scripting-core] [0mCreating script environments for hud
-[           resources] Started resource hud
-[    c-scripting-core] Creating script environments for identidade
-[           resources] Started resource identidade
-[    c-scripting-core] Creating script environments for impound
-[           resources] Started resource impound
-[    c-scripting-core] Creating script environments for initial
-[           resources] Started resource initial
-[    c-scripting-core] Creating script environments for inspect
-[           resources] Started resource inspect
-[    c-scripting-core] Creating script environments for inventory
-[38;5;83m[           resources] Started resource inventory
-[           resources] Started resource keyboard
-[           resources] [0mStarted resource loading
-[    c-scripting-core] Creating script environments for lscustoms
-[           resources] Started resource lscustoms
-[    c-scripting-core] [97mCreating script environments for luckywheel
-[           resources] Started resource luckywheel
-[           resources] Started resource memory
-[           resources] Started resource metas
-[           resources] [0mStarted resource notebook
-[           resources] Started resource notify
-[           resources] Started resource notifycall
-[           resources] Started resource notifyitens
-[    c-scripting-core] Creating script environments for painel
-[           resources] [97mStarted resource painel
-[    c-scripting-core] Creating script environments for paramedic
-[           resources] Started resource paramedic
-[    c-scripting-core] Creating script environments for party
-[           resources] Started resource party
-[38;5;161m[    c-scripting-core] Creating script environments for pdm
-[           resources] Started resource pdm
-[    c-scripting-core] Creating script environments for player
-[           resources] Started resource player
-[    c-scripting-core] Creating script environments for police
-[38;5;83m[           resources] Started resource police
-[    c-scripting-core] Creating script environments for postit
-[           resources] Started resource postit
-[    c-scripting-core] [0mCreating script environments for propertys
-[           resources] Started resource propertys
-[    c-scripting-core] [97mCreating script environments for races
-[           resources] Started resource races
-[           resources] [0mStarted resource radar
-[    c-scripting-core] [97mCreating script environments for radio
-[           resources] Started resource radio
-[           resources] Started resource request
-[    c-scripting-core] Creating script environments for routes
-[           resources] Started resource routes
-[           resources] Started resource safecrack
-[    c-scripting-core] Creating script environments for service
-[           resources] [0mStarted resource service
-[    c-scripting-core] Creating script environments for shops
-[           resources] Started resource shops
-[    c-scripting-core] Creating script environments for shortcuts
-[           resources] Started resource shortcuts
-[           resources] Started resource showme
-[    c-scripting-core] [97mCreating script environments for skinshop
-[           resources] Started resource skinshop
-[    c-scripting-core] Creating script environments for slotmachine
-[           resources] Started resource slotmachine
-[    c-scripting-core] Creating script environments for smartphone
-[           resources] Started resource smartphone
-[    c-scripting-core] Creating script environments for stockade
-[           resources] Started resource stockade
-[           resources] Started resource survival
-[    c-scripting-core] Creating script environments for tackle
-[           resources] Started resource tackle
-[    c-scripting-core] Creating script environments for target
-[           resources] Started resource target
-[           resources] Started resource taskbar
-[    c-scripting-core] Creating script environments for tattoos
-[           resources] Started resource tattoos
-[    c-scripting-core] [0mCreating script environments for towdriver
-[           resources] Started resource towdriver
-[    c-scripting-core] Creating script environments for tractor
-[           resources] Started resource tractor
-[    c-scripting-core] Creating script environments for trucker
-[           resources] Started resource trucker
-[    c-scripting-core] Creating script environments for trunkchest
-[           resources] Started resource trunkchest
-[           resources] Started resource vehcontrol
-[           resources] Started resource vehmenu
-[    c-scripting-core] Creating script environments for warehouse
-[38;5;83m[           resources] Started resource warehouse
-[ citizen-server-impl] Couldn't find resource category [ghost].
-[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
-[script:nation_skinsh]  [nation_skinshop] Autenticado - Qualquer dúvida -> Nation#4347
-[   script:smartphone] [SMARTPHONE] CELULAR AUTENTICADO COM SUCESSO!
-[ citizen-server-impl]         fff                          
-[38;5;73m[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
-[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
-[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
-[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
-[ citizen-server-impl]                                      
-[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://ghsxth-6rbm64.users.cfx.re/
-
-================================================================
-======== FXServer Starting - 5/18/2024, 7:56:13 PM              
-================================================================
-[           resources] Scanning resources.
-[           resources] Found 86 resources.
-[          svadhesive] Authenticating server license key...
-[          svadhesive] Server license key authentication succeeded. Welcome!
-[    c-scripting-core] Creating script environments for sessionmanager
-[           resources] Started resource sessionmanager
-[    c-scripting-core] Creating script environments for monitor
-[      script:monitor] [txAdmin] Resource v7.1.0 threads and commands set up. All Ready.
-[           resources] Started resource monitor
-[    c-scripting-core] [97mCreating script environments for vrp
-[           resources] Started resource vrp
-[    c-scripting-core] Creating script environments for oxmysql
-[           resources] Started resource oxmysql
-[    c-scripting-core] Creating script environments for nation_barbershop
-[           resources] [97mStarted resource nation_barbershop
-[    c-scripting-core] Creating script environments for nation_creator
-[           resources] Started resource nation_creator
-[    c-scripting-core] Creating script environments for nation_skinshop
-[           resources] Started resource nation_skinshop
-[    c-scripting-core] [97mCreating script environments for nation_tattoos
-[           resources] Started resource nation_tattoos
-[    c-scripting-core] Creating script environments for PolyZone
-[           resources] Started resource PolyZone
-[    c-scripting-core] Creating script environments for pma-voice
-[           resources] Started resource pma-voice
-[    c-scripting-core] Creating script environments for screenshot
-[           resources] Started resource screenshot
-[           resources] Started resource sounds
-[    c-scripting-core] Creating script environments for admin
-[           resources] Started resource admin
-[    c-scripting-core] Creating script environments for airdrop
-[           resources] Started resource airdrop
-[           resources] Started resource animacoes
-[    c-scripting-core] Creating script environments for bank
-[           resources] Started resource bank
-[    c-scripting-core] Creating script environments for barbershop
-[           resources] Started resource barbershop
-[    c-scripting-core] Creating script environments for blipsystem
-[           resources] Started resource blipsystem
-[    c-scripting-core] Creating script environments for bus
-[           resources] Started resource bus
-[           resources] Started resource cemitery
-[    c-scripting-core] [97mCreating script environments for chat
-[           resources] Started resource chat
-[    c-scripting-core] Creating script environments for chest
-[           resources] Started resource chest
-[    c-scripting-core] Creating script environments for crafting
-[           resources] Started resource crafting
-[           resources] Started resource creative
-[           resources] Started resource deliver
-[           resources] Started resource device
-[    c-scripting-core] Creating script environments for dismantled
-[           resources] Started resource dismantled
-[    c-scripting-core] Creating script environments for doors
-[           resources] Started resource doors
-[           resources] Started resource drift
-[    c-scripting-core] Creating script environments for dynamic
-[           resources] Started resource dynamic
-[    c-scripting-core] [97mCreating script environments for engine
-[           resources] [0mStarted resource engine
-[    c-scripting-core] Creating script environments for evidence
-[           resources] Started resource evidence
-[    c-scripting-core] Creating script environments for farmer
-[           resources] Started resource farmer
-[    c-scripting-core] Creating script environments for garages
-[           resources] Started resource garages
-[    c-scripting-core] Creating script environments for helicrash
-[           resources] Started resource helicrash
-[38;5;83m[           resources] Started resource hoverfy
-[    c-scripting-core] Creating script environments for hud
-[           resources] Started resource hud
-[    c-scripting-core] Creating script environments for identidade
-[           resources] [97mStarted resource identidade
-[    c-scripting-core] Creating script environments for impound
-[           resources] Started resource impound
-[    c-scripting-core] Creating script environments for initial
-[           resources] Started resource initial
-[    c-scripting-core] Creating script environments for inspect
-[           resources] Started resource inspect
-[    c-scripting-core] Creating script environments for inventory
-[           resources] Started resource inventory
-[           resources] Started resource keyboard
-[           resources] [0mStarted resource loading
-[    c-scripting-core] Creating script environments for lscustoms
-[           resources] Started resource lscustoms
-[    c-scripting-core] Creating script environments for luckywheel
-[           resources] [97mStarted resource luckywheel
-[           resources] Started resource memory
-[           resources] Started resource metas
-[           resources] Started resource notebook
-[           resources] Started resource notify
-[           resources] Started resource notifycall
-[           resources] Started resource notifyitens
-[    c-scripting-core] Creating script environments for painel
-[           resources] Started resource painel
-[    c-scripting-core] Creating script environments for paramedic
-[           resources] Started resource paramedic
-[    c-scripting-core] Creating script environments for party
-[           resources] Started resource party
-[    c-scripting-core] Creating script environments for pdm
-[           resources] [0mStarted resource pdm
-[    c-scripting-core] Creating script environments for player
-[           resources] Started resource player
-[    c-scripting-core] Creating script environments for police
-[           resources] [97mStarted resource police
-[    c-scripting-core] Creating script environments for postit
-[           resources] Started resource postit
-[    c-scripting-core] Creating script environments for propertys
-[           resources] Started resource propertys
-[    c-scripting-core] Creating script environments for races
-[           resources] Started resource races
-[           resources] Started resource radar
-[    c-scripting-core] Creating script environments for radio
-[           resources] Started resource radio
-[           resources] Started resource request
-[    c-scripting-core] Creating script environments for routes
-[           resources] Started resource routes
-[           resources] Started resource safecrack
-[    c-scripting-core] Creating script environments for service
-[38;5;83m[           resources] Started resource service
-[    c-scripting-core] Creating script environments for shops
-[           resources] Started resource shops
-[    c-scripting-core] Creating script environments for shortcuts
-[           resources] Started resource shortcuts
-[           resources] Started resource showme
-[    c-scripting-core] Creating script environments for skinshop
-[           resources] [0mStarted resource skinshop
-[    c-scripting-core] Creating script environments for slotmachine
-[           resources] Started resource slotmachine
-[    c-scripting-core] Creating script environments for smartphone
-[           resources] Started resource smartphone
-[    c-scripting-core] Creating script environments for stockade
-[           resources] Started resource stockade
-[           resources] Started resource survival
-[    c-scripting-core] Creating script environments for tackle
-[           resources] Started resource tackle
-[    c-scripting-core] Creating script environments for target
-[           resources] Started resource target
-[           resources] Started resource taskbar
-[    c-scripting-core] Creating script environments for tattoos
-[           resources] Started resource tattoos
-[    c-scripting-core] Creating script environments for towdriver
-[           resources] Started resource towdriver
-[    c-scripting-core] [0mCreating script environments for tractor
-[           resources] Started resource tractor
-[    c-scripting-core] Creating script environments for trucker
-[           resources] Started resource trucker
-[    c-scripting-core] [97mCreating script environments for trunkchest
-[           resources] Started resource trunkchest
-[           resources] Started resource vehcontrol
-[           resources] Started resource vehmenu
-[    c-scripting-core] Creating script environments for warehouse
-[           resources] Started resource warehouse
-[ citizen-server-impl] Couldn't find resource category [ghost].
-[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
-[script:nation_skinsh]  [nation_skinshop] Autenticado - Qualquer dúvida -> Nation#4347
-[   script:smartphone] [SMARTPHONE] CELULAR AUTENTICADO COM SUCESSO!
-[ citizen-server-impl]         fff                          
-[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
-[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
-[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
-[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
-[ citizen-server-impl]                                      
-[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://ghsxth-6rbm64.users.cfx.re/
-
-================================================================
-======== FXServer Starting - 5/18/2024, 7:57:53 PM              
-================================================================
-[           resources] Scanning resources.
-[           resources] Found 86 resources.
-[          svadhesive] Authenticating server license key...
-[          svadhesive] Server license key authentication succeeded. Welcome!
-[    c-scripting-core] Creating script environments for sessionmanager
-[           resources] Started resource sessionmanager
-[    c-scripting-core] Creating script environments for monitor
-[      script:monitor] [txAdmin] Resource v7.1.0 threads and commands set up. All Ready.
-[           resources] Started resource monitor
-[    c-scripting-core] Creating script environments for vrp
-[           resources] Started resource vrp
-[    c-scripting-core] Creating script environments for oxmysql
-[           resources] [97mStarted resource oxmysql
-[    c-scripting-core] Creating script environments for nation_barbershop
-[           resources] Started resource nation_barbershop
-[    c-scripting-core] Creating script environments for nation_creator
-[           resources] Started resource nation_creator
-[    c-scripting-core] Creating script environments for nation_skinshop
-[           resources] Started resource nation_skinshop
-[    c-scripting-core] Creating script environments for nation_tattoos
-[           resources] Started resource nation_tattoos
-[    c-scripting-core] Creating script environments for PolyZone
-[           resources] [97mStarted resource PolyZone
-[    c-scripting-core] Creating script environments for pma-voice
-[           resources] Started resource pma-voice
-[    c-scripting-core] Creating script environments for screenshot
-[           resources] Started resource screenshot
-[           resources] Started resource sounds
-[    c-scripting-core] Creating script environments for admin
-[           resources] Started resource admin
-[    c-scripting-core] Creating script environments for airdrop
-[           resources] Started resource airdrop
-[           resources] Started resource animacoes
-[    c-scripting-core] Creating script environments for bank
-[           resources] Started resource bank
-[    c-scripting-core] Creating script environments for barbershop
-[           resources] Started resource barbershop
-[    c-scripting-core] Creating script environments for blipsystem
-[           resources] Started resource blipsystem
-[    c-scripting-core] Creating script environments for bus
-[           resources] Started resource bus
-[           resources] Started resource cemitery
-[    c-scripting-core] Creating script environments for chat
-[           resources] Started resource chat
-[    c-scripting-core] Creating script environments for chest
-[           resources] Started resource chest
-[    c-scripting-core] Creating script environments for crafting
-[           resources] [97mStarted resource crafting
-[           resources] Started resource creative
-[           resources] Started resource deliver
-[           resources] Started resource device
-[    c-scripting-core] Creating script environments for dismantled
-[           resources] Started resource dismantled
-[    c-scripting-core] Creating script environments for doors
-[           resources] Started resource doors
-[           resources] Started resource drift
-[    c-scripting-core] Creating script environments for dynamic
-[           resources] Started resource dynamic
-[    c-scripting-core] [0mCreating script environments for engine
 [           resources] Started resource engine
 [    c-scripting-core] Creating script environments for evidence
 [           resources] Started resource evidence
@@ -413,38 +82,38 @@
 [           resources] Started resource identidade
 [    c-scripting-core] Creating script environments for impound
 [           resources] Started resource impound
-[    c-scripting-core] [0mCreating script environments for initial
+[    c-scripting-core] Creating script environments for initial
 [           resources] Started resource initial
 [    c-scripting-core] Creating script environments for inspect
 [           resources] Started resource inspect
 [    c-scripting-core] Creating script environments for inventory
 [           resources] Started resource inventory
-[           resources] Started resource keyboard
+[           resources] [97mStarted resource keyboard
 [           resources] Started resource loading
 [    c-scripting-core] Creating script environments for lscustoms
-[           resources] [0mStarted resource lscustoms
-[    c-scripting-core] [97mCreating script environments for luckywheel
+[           resources] Started resource lscustoms
+[    c-scripting-core] Creating script environments for luckywheel
 [           resources] Started resource luckywheel
 [           resources] Started resource memory
 [           resources] Started resource metas
 [           resources] Started resource notebook
 [           resources] Started resource notify
-[           resources] Started resource notifycall
-[           resources] [0mStarted resource notifyitens
-[    c-scripting-core] [97mCreating script environments for painel
-[           resources] Started resource painel
+[           resources] [0mStarted resource notifycall
+[           resources] [97mStarted resource notifyitens
+[    c-scripting-core] Creating script environments for painel
+[           resources] [97mStarted resource painel
 [    c-scripting-core] Creating script environments for paramedic
 [           resources] Started resource paramedic
 [    c-scripting-core] Creating script environments for party
-[           resources] [0mStarted resource party
+[           resources] Started resource party
 [    c-scripting-core] Creating script environments for pdm
-[           resources] Started resource pdm
+[           resources] [97mStarted resource pdm
 [    c-scripting-core] Creating script environments for player
 [           resources] Started resource player
-[    c-scripting-core] [0mCreating script environments for police
-[           resources] Started resource police
+[    c-scripting-core] Creating script environments for police
+[38;5;83m[           resources] Started resource police
 [    c-scripting-core] Creating script environments for postit
-[           resources] Started resource postit
+[           resources] [0mStarted resource postit
 [    c-scripting-core] Creating script environments for propertys
 [           resources] Started resource propertys
 [    c-scripting-core] Creating script environments for races
@@ -459,13 +128,13 @@
 [    c-scripting-core] Creating script environments for service
 [           resources] Started resource service
 [    c-scripting-core] Creating script environments for shops
-[38;5;83m[           resources] Started resource shops
-[    c-scripting-core] Creating script environments for shortcuts
-[           resources] [97mStarted resource shortcuts
+[           resources] Started resource shops
+[    c-scripting-core] [0mCreating script environments for shortcuts
+[           resources] [0mStarted resource shortcuts
 [           resources] Started resource showme
-[    c-scripting-core] [97mCreating script environments for skinshop
-[           resources] Started resource skinshop
-[    c-scripting-core] Creating script environments for slotmachine
+[    c-scripting-core] Creating script environments for skinshop
+[           resources] [0mStarted resource skinshop
+[    c-scripting-core] [97mCreating script environments for slotmachine
 [           resources] Started resource slotmachine
 [    c-scripting-core] Creating script environments for smartphone
 [           resources] Started resource smartphone
@@ -479,192 +148,89 @@
 [           resources] Started resource taskbar
 [    c-scripting-core] Creating script environments for tattoos
 [           resources] Started resource tattoos
-[    c-scripting-core] Creating script environments for towdriver
-[           resources] Started resource towdriver
-[    c-scripting-core] [0mCreating script environments for tractor
-[           resources] Started resource tractor
-[    c-scripting-core] [0mCreating script environments for trucker
-[           resources] Started resource trucker
-[    c-scripting-core] Creating script environments for trunkchest
-[           resources] Started resource trunkchest
-[           resources] Started resource vehcontrol
-[           resources] [0mStarted resource vehmenu
-[    c-scripting-core] Creating script environments for warehouse
-[           resources] Started resource warehouse
-[ citizen-server-impl] Couldn't find resource category [ghost].
-[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
-[script:nation_skinsh]  [nation_skinshop] Autenticado - Qualquer dúvida -> Nation#4347
-[38;5;211m[   script:smartphone] [SMARTPHONE] CELULAR AUTENTICADO COM SUCESSO!
-[ citizen-server-impl]         fff                          
-[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
-[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
-[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
-[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
-[ citizen-server-impl]                                      
-[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://ghsxth-3d86kz.users.cfx.re/
-[          script:vrp] Realizado o save do banco de dados.
-[          script:vrp] Realizado o save do banco de dados.
-[ citizen-server-main] -> Quitting: SIGHUP received
-
-================================================================
-======== FXServer Starting - 5/18/2024, 9:01:31 PM              
-================================================================
-[           resources] Scanning resources.
-[           resources] Found 86 resources.
-[          svadhesive] Authenticating server license key...
-[          svadhesive] Server license key authentication succeeded. Welcome!
-[    c-scripting-core] Creating script environments for sessionmanager
-[           resources] Started resource sessionmanager
-[    c-scripting-core] Creating script environments for monitor
-[      script:monitor] [txAdmin] Resource v7.1.0 threads and commands set up. All Ready.
-[           resources] Started resource monitor
-[    c-scripting-core] Creating script environments for vrp
-[           resources] Started resource vrp
-[    c-scripting-core] Creating script environments for oxmysql
-[           resources] Started resource oxmysql
-[    c-scripting-core] Creating script environments for nation_barbershop
-[           resources] Started resource nation_barbershop
-[    c-scripting-core] Creating script environments for nation_creator
-[           resources] Started resource nation_creator
-[    c-scripting-core] Creating script environments for nation_skinshop
-[           resources] Started resource nation_skinshop
-[    c-scripting-core] Creating script environments for nation_tattoos
-[           resources] Started resource nation_tattoos
-[    c-scripting-core] Creating script environments for PolyZone
-[           resources] Started resource PolyZone
-[    c-scripting-core] Creating script environments for pma-voice
-[           resources] Started resource pma-voice
-[    c-scripting-core] [0mCreating script environments for screenshot
-[           resources] Started resource screenshot
-[           resources] Started resource sounds
-[    c-scripting-core] Creating script environments for admin
-[           resources] Started resource admin
-[    c-scripting-core] Creating script environments for airdrop
-[           resources] Started resource airdrop
-[           resources] Started resource animacoes
-[    c-scripting-core] Creating script environments for bank
-[           resources] Started resource bank
-[    c-scripting-core] Creating script environments for barbershop
-[           resources] Started resource barbershop
-[    c-scripting-core] Creating script environments for blipsystem
-[           resources] Started resource blipsystem
-[    c-scripting-core] Creating script environments for bus
-[           resources] Started resource bus
-[           resources] Started resource cemitery
-[    c-scripting-core] Creating script environments for chat
-[           resources] Started resource chat
-[    c-scripting-core] Creating script environments for chest
-[38;5;83m[           resources] Started resource chest
-[    c-scripting-core] Creating script environments for crafting
-[           resources] Started resource crafting
-[           resources] Started resource creative
-[           resources] Started resource deliver
-[           resources] Started resource device
-[    c-scripting-core] Creating script environments for dismantled
-[           resources] Started resource dismantled
-[    c-scripting-core] Creating script environments for doors
-[           resources] Started resource doors
-[           resources] Started resource drift
-[38;5;161m[    c-scripting-core] Creating script environments for dynamic
-[           resources] [0mStarted resource dynamic
-[    c-scripting-core] Creating script environments for engine
-[           resources] Started resource engine
-[    c-scripting-core] Creating script environments for evidence
-[           resources] Started resource evidence
-[    c-scripting-core] [97mCreating script environments for farmer
-[           resources] Started resource farmer
-[    c-scripting-core] Creating script environments for garages
-[           resources] Started resource garages
-[    c-scripting-core] Creating script environments for helicrash
-[           resources] [0mStarted resource helicrash
-[           resources] Started resource hoverfy
-[    c-scripting-core] Creating script environments for hud
-[           resources] Started resource hud
-[    c-scripting-core] Creating script environments for identidade
-[           resources] Started resource identidade
-[    c-scripting-core] Creating script environments for impound
-[           resources] Started resource impound
-[    c-scripting-core] Creating script environments for initial
-[           resources] Started resource initial
-[    c-scripting-core] Creating script environments for inspect
-[           resources] Started resource inspect
-[    c-scripting-core] Creating script environments for inventory
-[           resources] Started resource inventory
-[           resources] Started resource keyboard
-[           resources] Started resource loading
-[    c-scripting-core] Creating script environments for lscustoms
-[           resources] Started resource lscustoms
-[    c-scripting-core] Creating script environments for luckywheel
-[           resources] Started resource luckywheel
-[           resources] Started resource memory
-[           resources] Started resource metas
-[           resources] [97mStarted resource notebook
-[           resources] [97mStarted resource notify
-[           resources] [97mStarted resource notifycall
-[           resources] Started resource notifyitens
-[    c-scripting-core] Creating script environments for painel
-[           resources] Started resource painel
-[    c-scripting-core] Creating script environments for paramedic
-[           resources] Started resource paramedic
-[    c-scripting-core] Creating script environments for party
-[           resources] Started resource party
-[    c-scripting-core] Creating script environments for pdm
-[           resources] Started resource pdm
-[    c-scripting-core] Creating script environments for player
-[           resources] Started resource player
-[    c-scripting-core] Creating script environments for police
-[           resources] [97mStarted resource police
-[    c-scripting-core] Creating script environments for postit
-[           resources] Started resource postit
-[    c-scripting-core] Creating script environments for propertys
-[           resources] Started resource propertys
-[    c-scripting-core] Creating script environments for races
-[           resources] Started resource races
-[           resources] [0mStarted resource radar
-[    c-scripting-core] [97mCreating script environments for radio
-[           resources] [0mStarted resource radio
-[           resources] Started resource request
-[    c-scripting-core] Creating script environments for routes
-[           resources] Started resource routes
-[           resources] Started resource safecrack
-[    c-scripting-core] [97mCreating script environments for service
-[           resources] Started resource service
-[    c-scripting-core] Creating script environments for shops
-[           resources] Started resource shops
-[    c-scripting-core] Creating script environments for shortcuts
-[           resources] Started resource shortcuts
-[           resources] Started resource showme
-[    c-scripting-core] Creating script environments for skinshop
-[           resources] Started resource skinshop
-[    c-scripting-core] Creating script environments for slotmachine
-[           resources] Started resource slotmachine
-[    c-scripting-core] Creating script environments for smartphone
-[           resources] Started resource smartphone
-[    c-scripting-core] Creating script environments for stockade
-[           resources] Started resource stockade
-[           resources] Started resource survival
-[    c-scripting-core] Creating script environments for tackle
-[38;5;83m[           resources] Started resource tackle
-[38;5;161m[    c-scripting-core] Creating script environments for target
-[38;5;83m[           resources] Started resource target
-[           resources] Started resource taskbar
-[    c-scripting-core] [97mCreating script environments for tattoos
-[           resources] Started resource tattoos
-[    c-scripting-core] Creating script environments for towdriver
+[    c-scripting-core] [97mCreating script environments for towdriver
 [           resources] Started resource towdriver
 [    c-scripting-core] Creating script environments for tractor
 [           resources] Started resource tractor
 [    c-scripting-core] Creating script environments for trucker
 [           resources] Started resource trucker
-[    c-scripting-core] [97mCreating script environments for trunkchest
+[    c-scripting-core] Creating script environments for trunkchest
 [           resources] Started resource trunkchest
 [           resources] Started resource vehcontrol
 [           resources] Started resource vehmenu
 [    c-scripting-core] Creating script environments for warehouse
 [           resources] Started resource warehouse
-[ citizen-server-impl] Couldn't find resource category [ghost].
+[resources:night_road] Warning: could not find file `stream/*/*/*/**` (defined in fxmanifest.lua:7)
+[resources:night_road] Asset night_roads1/ap1_04_ground.ytd uses 30.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/beverlyhillsrd+hi.ytd uses 42.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch1+hi.ytd uses 28.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch1.ytd uses 24.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch1_07_getty.ytd uses 16.5 MiB of physical memory.
+[38;5;73m[resources:night_road] Asset night_roads1/ch1_12_blg+hi.ytd uses 22.8 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch1_12_blg.ytd uses 27.9 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch1_roads_rd+hi.ytd uses 32.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch1_roadsb_roads+hi.ytd uses 19.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch1_roadsb_roads.ytd uses 18.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch1_roadsc_rd+hi.ytd uses 27.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch1_roadsc_rd.ytd uses 38.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch1_roadsd_rd+hi.ytd uses 26.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch1_roadsd_rd.ytd uses 21.9 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch2+hi.ytd uses 36.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch2_roads_csrd+hi.ytd uses 26.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch2_roads_csrd.ytd uses 30.0 MiB of physical memory.
+[resources:night_road] [94mAsset night_roads1/ch2_roads_rd+hi.ytd uses 30.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch2_roads_rd.ytd uses 46.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch2_roadsa_roads+hi.ytd uses 28.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch3_rd1+hi.ytd uses 26.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch3_rd1.ytd uses 24.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch3_rd2_fwy.ytd uses 20.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch3roadnorth+hi.ytd uses 23.5 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch3roadnorth.ytd uses 22.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch3roadsouth+hi.ytd uses 19.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/ch3roadsouth.ytd uses 18.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs1_02_cpark.ytd uses 18.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs1_02_railway+hi.ytd uses 21.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs1_02_railway.ytd uses 20.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs1_04_ground+hi.ytd uses 22.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs1_04_ground.ytd uses 38.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs1_05_roads.ytd uses 22.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs1_roads_hw+hi.ytd uses 18.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs1_roads_pb+hi.ytd uses 23.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs1_roads_pb.ytd uses 20.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs2_01_ground+hidr.ytd uses 18.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs2_roads_hd+hi.ytd uses 17.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs2_roads_hd.ytd uses 26.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs2_roads_hi_s_rds+hi.ytd uses 19.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs2_roads_hi_s_rds.ytd uses 26.5 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs2_roadsb_hd+hi.ytd uses 28.0 MiB of physical memory.
+[resources:night_road] [94mAsset night_roads1/cs2_roadsb_hd.ytd uses 28.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs2_roadsb_hd_fwy+hi.ytd uses 24.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs2_roadsb_hd_fwy.ytd uses 20.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs4roads+hi.ytd uses 22.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs4roads.ytd uses 24.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs5_roads_hd.ytd uses 30.8 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs6_roads+hi.ytd uses 22.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs6_roads.ytd uses 21.5 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs6_roadsb_roads+hi.ytd uses 21.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs6_roadsb_roads.ytd uses 21.5 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs6roads+hi.ytd uses 21.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/cs6roads.ytd uses 18.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/dt1_08_grnd.ytd uses 17.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/freewayrd+hi.ytd uses 26.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/freewayrd.ytd uses 26.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/globalroads+hi.ytd uses 19.8 MiB of physical memory.
+[resources:night_road] Asset night_roads1/globalroads.ytd uses 19.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/globalroads45+hi.ytd uses 20.1 MiB of physical memory.
+[resources:night_road] Asset night_roads1/globalroads45.ytd uses 19.9 MiB of physical memory.
+[resources:night_road] Asset night_roads1/hollywoodrd+hi.ytd uses 22.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/hollywoodrd.ytd uses 24.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/hw1_rd_trans_hills04.ydr uses 18.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/id2_21_b_gnd01+hidr.ytd uses 20.0 MiB of physical memory.
+[resources:night_road] Asset night_roads1/paletoroadtemp+hi.ytd uses 18.5 MiB of physical memory.
+[resources:night_road] Asset night_roads1/po1_04+hi.ytd uses 19.0 MiB of physical memory.
+[           resources] Started resource night_roads1 (68 warnings)
 [      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
-[38;5;35m[script:nation_skinsh]  [nation_skinshop] Autenticado - Qualquer dúvida -> Nation#4347
+[script:nation_skinsh]  [nation_skinshop] Autenticado - Qualquer dúvida -> Nation#4347
 [   script:smartphone] [SMARTPHONE] CELULAR AUTENTICADO COM SUCESSO!
 [ citizen-server-impl]         fff                          
 [ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
@@ -673,72 +239,3 @@
 [ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
 [ citizen-server-impl]                                      
 [ citizen-server-impl] Authenticated with cfx.re Nucleus: https://ghsxth-3d86kz.users.cfx.re/
-[ citizen-server-impl] server thread hitch warning: timer interval of 326 milliseconds
-[ citizen-server-impl] sync thread hitch warning: timer interval of 104 milliseconds
-[          script:vrp] Realizado o save do banco de dados.
-[ citizen-server-impl] server thread hitch warning: timer interval of 163 milliseconds
-[       script:painel] SCRIPT ERROR: @painel/server-side/core.lua:42: attempt to index a nil value (local 'infos')
-[       script:painel] > Premium (@painel/server-side/core.lua:42)
-[       script:painel] > ref (@painel/server-side/core.lua:95)
-[       script:painel] > handler (rp/lib/Proxy.lua:53)
-[       script:painel] > runMicrotasks (<anonymous>:0)
-[       script:painel] > processTicksAndRejections (node:internal/process/task_queues:96)
-[       script:painel] SCRIPT ERROR: @painel/server-side/core.lua:42: attempt to index a nil value (local 'infos')
-[       script:painel] > Premium (@painel/server-side/core.lua:42)
-[       script:painel] > ref (@painel/server-side/core.lua:95)
-[       script:painel] > handler (rp/lib/Proxy.lua:53)
-[       script:painel] > runMicrotasks (<anonymous>:0)
-[       script:painel] > processTicksAndRejections (node:internal/process/task_queues:96)
-[          script:vrp] Realizado o save do banco de dados.
-[       script:painel] SCRIPT ERROR: @painel/server-side/core.lua:23: attempt to index a nil value (local 'infos')
-[       script:painel] > Premium (@painel/server-side/core.lua:23)
-[       script:painel] > ref (@painel/server-side/core.lua:76)
-[       script:painel] > handler (rp/lib/Proxy.lua:53)
-[       script:painel] > runMicrotasks (<anonymous>:0)
-[       script:painel] > processTicksAndRejections (node:internal/process/task_queues:96)
-[       script:painel] SCRIPT ERROR: @painel/server-side/core.lua:23: attempt to index a nil value (local 'infos')
-[       script:painel] > Premium (@painel/server-side/core.lua:23)
-[       script:painel] > ref (@painel/server-side/core.lua:76)
-[       script:painel] > handler (rp/lib/Proxy.lua:53)
-[       script:painel] > runMicrotasks (<anonymous>:0)
-[       script:painel] > processTicksAndRejections (node:internal/process/task_queues:96)
-[       script:painel] SCRIPT ERROR: @painel/server-side/core.lua:23: attempt to index a nil value (local 'infos')
-[       script:painel] > Premium (@painel/server-side/core.lua:23)
-[       script:painel] > ref (@painel/server-side/core.lua:76)
-[       script:painel] > handler (rp/lib/Proxy.lua:53)
-[       script:painel] > runMicrotasks (<anonymous>:0)
-[       script:painel] > processTicksAndRejections (node:internal/process/task_queues:96)
-[       script:painel] SCRIPT ERROR: @painel/server-side/core.lua:65: attempt to index a boolean value (local 'Hierarchy')
-[       script:painel] > handler (rp/lib/Proxy.lua:53)
-[       script:painel] > runMicrotasks (<anonymous>:0)
-[       script:painel] > processTicksAndRejections (node:internal/process/task_queues:96)
-[       script:painel] SCRIPT ERROR: @painel/server-side/core.lua:23: attempt to index a nil value (local 'infos')
-[       script:painel] > Premium (@painel/server-side/core.lua:23)
-[       script:painel] > ref (@painel/server-side/core.lua:76)
-[       script:painel] [93m> handler (rp/lib/Proxy.lua:53)
-[       script:painel] > runMicrotasks (<anonymous>:0)
-[       script:painel] > processTicksAndRejections (node:internal/process/task_queues:96)
-[       script:painel] SCRIPT ERROR: @painel/server-side/core.lua:63: attempt to index a boolean value (local 'Hierarchy')
-[       script:painel] > handler (rp/lib/Proxy.lua:53)
-[       script:painel] > runMicrotasks (<anonymous>:0)
-[       script:painel] > processTicksAndRejections (node:internal/process/task_queues:96)
-[      script:oxmysql] [10.4.32-MariaDB] vrp took 172.5696ms to execute a query!
-[      script:oxmysql] SELECT * FROM org_transactions WHERE name = ? ORDER BY id DESC LIMIT 12 ["Police"]
-[       script:painel] SCRIPT ERROR: @painel/server-side/core.lua:42: attempt to index a nil value (local 'infos')
-[       script:painel] > Premium (@painel/server-side/core.lua:42)
-[       script:painel] > ref (@painel/server-side/core.lua:95)
-[       script:painel] > handler (rp/lib/Proxy.lua:53)
-[       script:painel] > runMicrotasks (<anonymous>:0)
-[       script:painel] > processTicksAndRejections (node:internal/process/task_queues:96)
-[       script:painel] SCRIPT ERROR: @painel/server-side/core.lua:42: attempt to index a nil value (local 'infos')
-[       script:painel] > Premium (@painel/server-side/core.lua:42)
-[       script:painel] > ref (@painel/server-side/core.lua:95)
-[       script:painel] > handler (rp/lib/Proxy.lua:53)
-[       script:painel] > runMicrotasks (<anonymous>:0)
-[       script:painel] > processTicksAndRejections (node:internal/process/task_queues:96)
-[       script:painel] SCRIPT ERROR: @painel/server-side/core.lua:84: attempt to index a boolean value (local 'Hierarchy')
-[       script:painel] > handler (rp/lib/Proxy.lua:53)
-[       script:painel] > runMicrotasks (<anonymous>:0)
-[       script:painel] > processTicksAndRejections (node:internal/process/task_queues:96)
-[          script:vrp] Realizado o save do banco de dados.
-[ citizen-server-main] -> Quitting: SIGHUP received

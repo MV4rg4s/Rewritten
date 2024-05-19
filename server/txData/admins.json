@@ -1,1 +1,45 @@
-[{"name":"ghsxth","master":true,"password_hash":"$2a$11$/MuxNs/1BgL4KYIM.AJCB.SUMY1TqCB/BW6svWPQE9Jl3IIh8HseS","providers":{"citizenfx":{"id":"ghsxth","identifier":"fivem:13478598","data":{"name":"ghsxth","profile":"https://forum.cfx.re/u/ghsxth","nameid":"https://forum.cfx.re/internal/user/13478598","picture":"https://avatars.discourse.org/v4/letter/g/7933a0/256.png"}},"discord":{"id":"1162027375882686564","identifier":"discord:1162027375882686564","data":{}}},"permissions":[]}]
+[
+  {
+    "name": "ghsxth",
+    "master": true,
+    "password_hash": "$2a$11$/MuxNs/1BgL4KYIM.AJCB.SUMY1TqCB/BW6svWPQE9Jl3IIh8HseS",
+    "providers": {
+      "citizenfx": {
+        "id": "ghsxth",
+        "identifier": "fivem:13478598",
+        "data": {
+          "name": "ghsxth",
+          "profile": "https://forum.cfx.re/u/ghsxth",
+          "nameid": "https://forum.cfx.re/internal/user/13478598",
+          "picture": "https://avatars.discourse.org/v4/letter/g/7933a0/256.png"
+        }
+      },
+      "discord": {
+        "id": "1162027375882686564",
+        "identifier": "discord:1162027375882686564",
+        "data": {}
+      }
+    },
+    "permissions": []
+  },
+  {
+    "name": "swamp",
+    "master": false,
+    "password_hash": "$2a$11$MVrZCNAjtYGiuJBQLfbSiOWI97PGeF9NsVRjEK1FuW09dmqQI1de2",
+    "providers": {
+      "discord": {
+        "id": "870095664187584553",
+        "identifier": "discord:870095664187584553",
+        "data": {}
+      },
+      "citizenfx": {
+        "id": "Swamp",
+        "identifier": "fivem:258686",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  }
+]

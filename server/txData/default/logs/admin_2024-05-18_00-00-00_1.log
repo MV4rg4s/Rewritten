@@ -1,0 +1,32 @@
+
+================================================================
+======== txAdmin v7.1.0 atop fxserver 8102 Starting - 5/18/2024, 7:50:39 PM
+================================================================
+[19:54:26][ghsxth] created admins file
+[19:55:11][ghsxth] Changing global/fxserver settings via setup stepper.
+
+================================================================
+======== txAdmin v7.1.0 atop fxserver 8102 Starting - 5/18/2024, 7:56:13 PM
+================================================================
+
+================================================================
+======== txAdmin v7.1.0 atop fxserver 8102 Starting - 5/18/2024, 7:57:53 PM
+================================================================
+
+================================================================
+======== txAdmin v7.1.0 atop fxserver 8102 Starting - 5/18/2024, 9:01:24 PM
+================================================================
+
+================================================================
+======== txAdmin v7.1.0 atop fxserver 8102 Starting - 5/18/2024, 10:56:34 PM
+================================================================
+[23:00:21][ghsxth] logged in from 45.167.162.20 via cfxre
+[23:02:07][ghsxth] Changing global settings.
+[23:03:26][ghsxth] Adding admin 'swamp'.
+[23:04:54][ghsxth] Changing fxRunner settings.
+[23:04:57][ghsxth] Changing fxRunner settings.
+[23:05:00][ghsxth] executed "RESTART SERVER"
+[23:06:51][swamp] logged in from 179.165.4.79 via password
+[23:06:54][ghsxth] Editing user 'swamp'.
+[23:07:21][swamp] Changing own password.
+[23:07:43][swamp] Changing own identifiers.
