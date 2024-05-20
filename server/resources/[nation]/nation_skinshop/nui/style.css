@@ -1,15 +1,12 @@
-@font-face {
-    font-family: "Bison Bold";
-    src: url("fonts/Bison-Bold(PersonalUse).ttf") format("truetype");
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&display=swap');
 
 body {
-    font-family: "Bison Bold";
+    font-family: 'Poppins', sans-serif;
     user-select: none;
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+    text-transform: uppercase;
     /* background: url("https://cdn.discordapp.com/attachments/720123156160970754/861824793660358666/34.png"); */
 
 }
@@ -27,11 +24,11 @@ body {
 
 @keyframes tilt-in-fwd-tr {
     0% {
-        transform: perspective(0vh) rotateY(-10deg) rotateX(-100deg);
+        transform: perspective(0vh) rotateY(0) rotateX(0);
         opacity: 0;
     }
     100% {
-        transform: perspective(100vh) rotateY(-10deg) rotateX(0deg);
+        transform: perspective(0) rotateY(0) rotateX(0);
         opacity: 1;
     }
 }
@@ -39,11 +36,11 @@ body {
 
 @keyframes swing-out-top-bck {
     0% {
-        transform: perspective(100vh) rotateX(0deg) rotateY(-10deg);
+        transform: perspective(0) rotateX(0) rotateY(0);
         opacity: 1;
     }
     100% {
-        transform: perspective(0vh) rotateX(-100deg) rotateY(-10deg);
+        transform: perspective(0) rotateX(0) rotateY(0);
         opacity: 0;
     }
 }
@@ -61,15 +58,16 @@ body {
     display: none;
     position: absolute;
     width: 50vh;
-    height: 70vh;
+    height: 100vh;
     right: 5vh;
-    top: 5vh;
-    transform: perspective(100vh) rotateY(-10deg);
-    background: transparent linear-gradient(180deg, #2e46e1 0%, #000000b4 100%) 0% 0% no-repeat padding-box;
-    box-shadow: 0px 0px 30px #2e46e1;
+    top: 8vh;
+    transform: perspective(0) rotateY(0);
+    background: transparent linear-gradient(180deg, #ffffff00 0%, #000000b4 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #000000;
     border-radius: 3vh 0px 0px 0px;
     padding-bottom: 5vh;
     transition: transform .2s;
+    zoom: .8;
 }
 
 .pages-container {
@@ -84,7 +82,7 @@ body {
 .top {
     position: relative;
     background: transparent linear-gradient(260deg, #000000 0%, #242424 100%) 0% 0% no-repeat padding-box;
-    box-shadow: 0px 6px 10px #2e46e1;
+    box-shadow: 0px 6px 10px #00000038;
     border-radius: 3vh 0px 0px 0px;
     opacity: 0.85;
     z-index: 999;
@@ -342,7 +340,7 @@ body {
     background-size: cover;
     background-position: center;
     color: rgba(255, 255, 255, 0.836);
-    font-size: 2.5vh;
+    font-size: 2vh;
     text-shadow: 0px 0px 5px #8d8d8d2a;
     box-shadow: 0px 0px 20px #00000045;
     transition: transform .2s, box-shadow .2s;
@@ -378,7 +376,7 @@ body {
     transition: transform .1s;
     background-size: cover;
     color: white;
-    font-size: 2vh;
+    font-size: 1.5vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -615,10 +613,12 @@ body {
     background: #131313A3 0% 0% no-repeat padding-box;
     /* opacity: 0.71; */
     margin: auto;
-    font-family: "Bison Bold";
+    font-family: 'Poppins', sans-serif;
     outline: none;
     transition: transform .2s;
     overflow: hidden;
+    zoom: .8;
+    text-transform: uppercase;
 }
 
 .btn p, .btn span {
@@ -649,7 +649,7 @@ body {
 
 .pages {
     position: relative;
-    border-color: #2e46e1;
+    border-color: #56AABB;
 }
 
 
@@ -735,7 +735,7 @@ input::-webkit-inner-spin-button {
 
  ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background: #2e46e1;
+    background: #335D8E;
     height: .2vh;
 }
 
@@ -744,7 +744,7 @@ input::-webkit-inner-spin-button {
 }
 
  ::-webkit-scrollbar-thumb:active {
-    background: linear-gradient(left, #2e46e1, #2e46e1);
+    background: linear-gradient(left, #22ADD4, #1E98BA);
 }
 
 
@@ -835,6 +835,8 @@ input::-webkit-inner-spin-button {
     opacity: 0;
     transform: scale(0);
     transition: opacity 1s, transform .5s;
+    zoom: .8;
+    text-transform: uppercase;
 }
 
 .popup-active {

@@ -1,5 +1,4 @@
-//const imgDir = "http://200.9.154.114/nation_barbershop/"; // DIRETÓRIO DAS IMAGENS
-const imgDir = "http://localhost/nation_creator/"; // DIRETÓRIO DAS IMAGENS
+const imgDir = "http://191.96.224.154/nation_creator/"; // DIRETÓRIO DAS IMAGENS
 
 const pt_BR = {
     next: "próximo",
@@ -16,8 +15,8 @@ const pt_BR = {
     age: "idade",
     gender: "gênero",
     heritage: "parentesco",
-    selectMom: "selecionar mãe",
-    selectDad: "selecionar pai",
+    selectMom: "SELECIONAR MÃE",
+    selectDad: "SELECIONAR PAI",
     resemblance: "semelhança",
     momColor: "cor da mãe",
     dadColor: "cor do pai",

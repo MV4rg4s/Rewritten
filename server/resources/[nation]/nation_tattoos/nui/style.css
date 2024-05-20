@@ -1,17 +1,15 @@
-@font-face {
-    font-family: "Bison Bold";
-    src: url("fonts/Bison-Bold(PersonalUse).ttf") format("truetype");
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&display=swap');
 
 body {
-    font-family: "Bison Bold";
+    font-family: 'Poppins', sans-serif;
     user-select: none;
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+    /* background: url("https://media.discordapp.net/attachments/834594473358262273/895951988293005312/sem_titulo-17.PNG?width=1202&height=676"); */
     background-size: cover;
     cursor: default;
+    text-transform: uppercase;
     /* display: none; */
 }
 
@@ -22,7 +20,7 @@ body {
     left: 0; top: 0;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(90deg, rgba(17, 17, 17, 0.295) 33.41%, rgba(17, 17, 17, 0) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(255, 255, 255, 0.05) 50%, rgba(0,0,0,.8) 100%);
 }
 
 .container, .container2 {
@@ -30,14 +28,14 @@ body {
     width: 50vh;
     height: 80vh;
     right: 5vh;
-    top: 2.5vh;
-    background: transparent linear-gradient(90deg, rgba(17, 17, 17, 0.295) 33.41%, rgba(17, 17, 17, 0) 100%);
-    box-shadow: linear-gradient(90deg, rgba(17, 17, 17, 0.295) 33.41%, rgba(17, 17, 17, 0) 100%);
+    top: 20vh;
+    background: transparent linear-gradient(180deg, #ffffff00 0%, #000000b4 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 30px #000000;
     padding-bottom: 5vh;
     transition: transform .2s;
-    transform: perspective(100vh) rotateY(-10deg);
+    transform: perspective(0) rotateY(0);
     border-radius: 3vh 0px 0px 0px;
-
+    zoom: .8;
     display: none;
 }
 
@@ -62,9 +60,9 @@ body {
 
 .top {
     position: relative;
-    box-shadow: 0px 6px 10px linear-gradient(90deg, rgba(17, 17, 17, 0.295) 33.41%, rgba(17, 17, 17, 0) 100%);
+    box-shadow: 0px 6px 10px #00000038;
     border-radius: 3vh 0px 0px 0px;
-    background: transparent linear-gradient(90deg, rgba(17, 17, 17, 0.295) 33.41%, rgba(17, 17, 17, 0) 100%);
+    background: transparent linear-gradient(260deg, #242424 0%, #000000 100%) 0% 0% no-repeat padding-box;
     opacity: 0.85;
     z-index: 0;
     width: 100%;
@@ -358,7 +356,7 @@ body {
 }
 
 .confirm-button:hover {
-    color: #406882;
+    color: #73C76A;
 }
 
 
@@ -375,7 +373,7 @@ body {
     background-size: cover;
     background-position: center;
     color: rgba(255, 255, 255, 0.836);
-    font-size: 3.1vh;
+    font-size: 2.1vh;
     text-shadow: 0px 0px 5px #8d8d8d2a;
     box-shadow: 0px 0px 20px #00000045;
     /* background: transparent linear-gradient(260deg, #242424 0%, #000000 100%) 0% 0% no-repeat padding-box; */
@@ -530,7 +528,7 @@ body {
 
 .btn {
     position: relative;
-    border: 2px solid #406882;
+    border: 2px solid #73C76A;
     color: white;
     height: 70%;
     border-radius: 3vh;
@@ -542,10 +540,12 @@ body {
     background: #131313A3 0% 0% no-repeat padding-box;
     /* opacity: 0.71; */
     margin: auto;
-    font-family: "Bison Bold";
+    font-family: 'Poppins', sans-serif;
     outline: none;
     transition: transform .2s;
     overflow: hidden;
+    zoom: .8;
+    text-transform: uppercase;
 }
 
 .btn p, .btn span {
@@ -586,7 +586,7 @@ body {
     content: "";
     height: 100%;
     width: 0%;
-    background: #406882;
+    background: #73C76A;
     transition: width .15s;
 }
 
@@ -709,6 +709,8 @@ input::-webkit-inner-spin-button {
     transform: scale(0);
     transition: opacity 1s, transform .5s;
     padding: 3vh;
+    zoom: .8;
+    text-transform: uppercase;
 }
 
 .popup-active {
@@ -802,7 +804,7 @@ input::-webkit-inner-spin-button {
     content: "";
     height: 100%;
     width: 0%;
-    background: #406882;
+    background: #73C76A;
     transition: width .15s;
 }
 

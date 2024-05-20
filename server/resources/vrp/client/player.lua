@@ -71,8 +71,9 @@ AddEventHandler("vRP:Active",function(Passport,Name)
 	SetDiscordRichPresenceAssetSmall("static")
 	SetDiscordRichPresenceAssetText("NIGHT")
 	SetDiscordRichPresenceAssetSmallText("NIGHT")
-	SetDiscordRichPresenceAction(0,"Discord","https://linktr.ee/nightgg")
 	SetDiscordRichPresenceAction(0,"Jogar","https://linktr.ee/nightgg")
+	SetDiscordRichPresenceAction(1,"Discord","https://linktr.ee/nightgg")
+
 
 	TriggerEvent("hud:Passport",Passport)
 
