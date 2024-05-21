@@ -52,7 +52,7 @@ RegisterCommand("anuncio",function(source)
 				--TriggerEvent("Discord","God","**avisopm**\n\n**Passaporte:** "..Passport.."\n**Deu God em Si mesmo:** \n**Horário:** "..os.date("%H:%M:%S"),3553599)
 				TriggerEvent("Discord","Avisopm","**Aviso PM**\n\n**Passaporte:** "..Passport.."\n**Enviou no Avisopm:** "..Keyboard[1].."\n**Horário:** "..os.date("%H:%M:%S"),3553599)
 			end
-		end
+		end --teste commit
 		end
 	end
 end)
