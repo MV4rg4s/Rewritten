@@ -45,11 +45,14 @@ RegisterCommand("anuncio",function(source)
 	local source = source
 	local Passport = vRP.Passport(source)
 	if Passport then
-		if vRP.HasGroup(Passport,"Admin",1) or vRP.HasGroup(Passport,"Staff",1) then
-			local Keyboard = vKEYBOARD.keyTertiary(source,"Mensagem:","Cor:","Nome:")
+		if vRP.HasGroup(Passport,"Admin",1) or vRP.HasGroup(Passport,"Police") then
+			local Keyboard = vKEYBOARD.keyArea(source,"Mensagem:")
 			if Keyboard then
-				TriggerClientEvent("Notify",-1,Keyboard[2],Keyboard[1],"<br><b>Mensagem enviada por:</b>",Keyboard[3],5000)
+				TriggerClientEvent("Notify",-1,"police",Keyboard[1],30000)
+				--TriggerEvent("Discord","God","**avisopm**\n\n**Passaporte:** "..Passport.."\n**Deu God em Si mesmo:** \n**Horário:** "..os.date("%H:%M:%S"),3553599)
+				TriggerEvent("Discord","Avisopm","**Aviso PM**\n\n**Passaporte:** "..Passport.."\n**Enviou no Avisopm:** "..Keyboard[1].."\n**Horário:** "..os.date("%H:%M:%S"),3553599)
 			end
+		end
 		end
 	end
 end)
