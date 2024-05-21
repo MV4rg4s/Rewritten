@@ -7102,6 +7102,18 @@ local List = {
 			["Mode"] = "Work",
 			["Gemstone"] = 0,
 			["Class"] = "Emergência"
+		},
+
+
+		-- Night Novos
+
+		["purosangue"] = {
+			["Name"] = "Ferrari Purosangue Blindada",
+			["Weight"] = 70,
+			["Price"] = 20000,
+			["Mode"] = "Cars",
+			["Gemstone"] = 300,
+			["Class"] = "Importados"
 		}
 	}
 	-----------------------------------------------------------------------------------------------------------------------------------------

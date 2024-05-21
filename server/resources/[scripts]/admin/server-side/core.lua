@@ -788,7 +788,7 @@ end)
 RegisterCommand("tpto",function(source,Message)
 	local Passport = vRP.Passport(source)
 	if Passport then
-		if  vRP.HasGroup(Passport,"Admin",1) or vRP.HasGroup(Passport,"Staff",1) and parseInt(Message[1]) > 0 then
+		if  vRP.HasGroup(Passport,"Admin",1) or vRP.HasGroup(Passport,"Admin",2) or vRP.HasGroup(Passport,"Staff",1) and parseInt(Message[1]) > 0 then
 			local ClosestPed = vRP.Source(Message[1])
 			if ClosestPed then
 				local Ped = GetPlayerPed(ClosestPed)
@@ -858,10 +858,10 @@ end)
 				local Vehicle,Network,Plate,vehName = vRPC.VehicleList(source,10)
 				if Vehicle then
 					local Players = vRPC.Players(source)
+					TriggerClientEvent("Notify",source,"verde","Veículo consertado com sucesso.",5000)
 					for _,v in pairs(Players) do
 						async(function()
 							TriggerClientEvent("inventory:repairAdmin",v,Network,Plate)
-							TriggerClientEvent("Notify",source,"verde","Veículo consertado com sucesso.",5000)
 						end)
 					end
 					
