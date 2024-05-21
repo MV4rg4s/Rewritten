@@ -41,5 +41,25 @@
     "permissions": [
       "all_permissions"
     ]
+  },
+  {
+    "name": "vargas",
+    "master": false,
+    "password_hash": "$2a$11$G7TLVPDULTh.UqgTWAjWw.wB2jQDBoi7I.0zioyOyAmtl1hty0gKK",
+    "providers": {
+      "citizenfx": {
+        "id": "Tiu_Vargas",
+        "identifier": "fivem:12016606",
+        "data": {}
+      },
+      "discord": {
+        "id": "242335120944660480",
+        "identifier": "discord:242335120944660480",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
   }
 ]

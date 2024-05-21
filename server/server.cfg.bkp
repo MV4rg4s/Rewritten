@@ -44,7 +44,7 @@ add_ace group.Admin command allow
 add_ace group.Admin command.quit deny
 
 add_principal identifier.steam:11000010b55307f group.Admin # OWNER 1
-add_principal identifier.steam:11000010a0946e3 group.Admin # OWNER 2
+#add_principal identifier.steam: group.Admin # OWNER 2
 #add_principal identifier.steam: group.Admin # OWNER 3
 #add_principal identifier.steam: group.Admin # OWNER 4
 
